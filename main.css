@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: rgba(8,8,26,.9);
+    background-image: linear-gradient(45deg,rgb(12,35,78),rgb(23,34,45));
+}
+
+.logo{
+    margin: 12px;
+    margin-left: 120px;
+    border: 1px solid yellow;
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+}
+.logo img{
+    margin-left: 5px;
+}
+h1{
+    color: orange;
+    margin: 10px;
+    margin-left: 50px;
+}
+ul{
+    background: rgba(12,14,32,.8);
+    height: 210px;
+    width: 320px;
+    padding: 4px;
+    margin-top:12px;
+}
+li{
+    list-style: none;
+    margin: 4px;
+color: white;
+border-radius: 4px;
+font-size: 18px;
+width: 280px;
+text-align: center;
+padding: 12px;
+border: 1px solid white;
+background: rgba(42,42,86,.9);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li:hover{
+background: orange;
+}
+#btn-up{
+    position: fixed;
+    padding: 15px;
+    margin: 10px;
+    margin-top: -40px;
+    background: rgba(20,100,140,.9);
+    color: white;
+    border-radius: 10px;
+}
+#home:hover{
+    background: orange;
+    transition: 0.5s;
+}
+
+#galery{
+    background: black;
+    display: none;
+    width: 330px;
+}
+#galery div{
+    width:180px;
+    height: 150px;
+    background: none;
+    margin: 4px;
+}
+#galery img{
+    width: 180px;
+    heigth: 150px;
+}
+.btn-btn{
+    background: orange;
+    border-radius: 10px;
+    padding: 12px;
+    color: white;
+    margin-top: 20px;
+}
+#btnProd{
+    background: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#btn2{
+    border: none;
+    width: 200px;
+    padding: 10px;
+    font-family: Sans-Serif;
+    font-size: 16px;
+}
+#btn2:hover{
+    background: green;
+}
+h3{
+    margin-top: 30px;
+}
+
+#p2{
+    margin-top:30px;
+}
+
+#miembros{
+    background: rgba(12,12,12,.9);
+    color: white;
+    padding: 10px;
+    height: 370px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+#intro{
+    background: none;
+    margin-top: 40px;
+}
+
+    
+.major{
+    margin-top: 50px;
+    
+}
+label{
+    margin:4px;
+    color: white;
+}
+input{
+    width: 300px;
+    height: 40px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 4px;
+    color: white;
+}
+.tipoDoc{
+    width: 300px;
+    height: 40px;
+    background: none;
+border: 2px solid white;
+    border-radius: 4px;
+    margin: 5px;
+    color: white;
+    font-size: 16px;
+}
+.btn{
+    background: rgba(20,100,140,.9);
+    color:white;
+    font-size: 18px;
+    border: none;
+}
+
+p{
+    background: none;
+    color: beige;
+    padding: 10px;
+}
+h2{
+    margin: 10px;
+    color: rgba(273,274,274,.9);
+}
